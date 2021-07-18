@@ -1,0 +1,1 @@
+select count(*) from lineitem ll where L_LINENUMBER < 2 and L_LINENUMBER > 0 and t1.L_ORDERKEY=t2.L_ORDERKEY
